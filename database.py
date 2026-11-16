@@ -5,7 +5,7 @@ from datetime import datetime, date, time as dtime
 from zoneinfo import ZoneInfo
 
 DATABASE_URL = os.getenv("DATABASE_URL")
-TZ = ZoneInfo("Europe/Moscow")
+TZ = ZoneInfo("Europe/Kyiv")
 
 pool: asyncpg.Pool = None
 
